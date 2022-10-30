@@ -38,7 +38,7 @@ echo <<<HTML
 		<input class="form-input" name="user-classes" id="user-classes" type="text" value="$classes" placeholder="Enter the user classes, comma separeated">
 	</div>
 	<div class="form-control">
-		<input class="form-button" type="submit" value="Save Changes">
+		<input class="form-button" type="submit" value="Submit">
 	</div>
 </form>				
 </div>
