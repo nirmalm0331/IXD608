@@ -5,5 +5,7 @@ jFor IXD608 Fall class
 - https://nirmalm.com
 - https://nirmalm.com/aau/ixd608/mkar.nirmal
 - https://nirmalm.com/aau/ixd608/mkar.nirmal/styleguide
+- http://nirmalm.com/aau/ixd608/mkar.nirmal/notes/reading_data.php
+- http://nirmalm.com/aau/ixd608/mkar.nirmal/admin/users.php
 
 
