@@ -11,10 +11,11 @@
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About</a></li>
 					<li><a href="product_list.php">Gallery</a></li>
-					<li><a href="add_to_cart.php">Cart</a></li>
-
+					<li><a href="product_cart.php">Cart</a></li>
 					
 				</ul>
+
+			</div>
 			</nav>
 		</div>
 	</header>

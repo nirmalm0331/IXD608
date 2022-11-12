@@ -13,7 +13,7 @@
 
 	--color-main-light:lightblue;
 	--color-main-medium:blue;
-	--color-main-dark:darkblue;
+	--color-main-dark:#3c767c;
 
 	--color-black: #000;
 	--color-white: #fff;
@@ -40,7 +40,7 @@ body {
 
 h1{
 
-font-family:var(----font-script);
+font-family:var(--font-script);
 }
 
 h2,
@@ -63,7 +63,7 @@ a {
 	}
 
 a:hover {
-	background-color: var(--color-main-medium);
+	background-color: var(--color-neutral-dark);
 	color: var(--color-white);
 	text-decoration: none;
 	
@@ -75,7 +75,7 @@ p {
 	
 	}
 
-
+/* LAYOUT CLASSES */
 
 .container {
 max-width: 800px;
@@ -121,10 +121,13 @@ margin-left: auto;
 	}
 
 .flex-justify { 
-
 	justify-content: center; 
 
 	}
+
+.flex-column {
+	flex-direction: column;
+}
 
 
 /* SMALL CLASS */
@@ -157,7 +160,7 @@ margin-left: auto;
 	}
 
 .nav a:hover {
-		background-color: var(--color-main-medium);
+		background-color: var(--color-neutral-dark);
 		color: var(--color-white);
 		text-decoration: none;
 	
@@ -237,7 +240,7 @@ margin-left: auto;
 		left: 0;
 		width: 100%;
 		height: 0;
-		background-color: var(--color-main-medium);
+		background-color: var(--color-neutral-medium);
 		transition: all 0.3s;
 	
 	}
@@ -260,9 +263,9 @@ margin-left: auto;
 	}
 
 .navbar h1 {
-	font-size: 1em;
+	font-size: 2em;
 	margin: 0;
-	font-family:var(--font-sans) ;
+	font-family:var(--font-script);
 	color: var(--color-white);
 
 
@@ -315,9 +318,17 @@ margin-left: auto;
 
 
 .card.flat {
-	padding: 0;
+	padding:0;
 
 	}
+
+.card-section~.card-section {
+	border-top: 1px solid var(--color-neutral-light);
+}
+
+.card-section {
+	padding: 1em;
+}
 
 .view-window {
 	height: 60vh;
@@ -548,9 +559,17 @@ margin-left: auto;
 	}
 
 
+.images-main img {
+	width: 100%;
+	height: 40vh;
+	object-fit:contain;
+}
 
-
-
+.images-thumbs img {
+	weight: 8em;
+	height: 6em;
+	object-fit:contain;
+}
 
 
 
