@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php include_once "lib/php/functions.php"; ?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -31,78 +31,90 @@
 
 			<div class="container">
 		<div class="card soft">
-			<h2>Customize your home with Nirmal's Handmade Art!</h2>
+			<h2>Customize your home with Nirmal's amazing Handmade Art!</h2>
 
 		</div>
+
+		<h3>Featured Art</h3>
 			<div class="card soft">
-			<h3>Featured Art</h3>
-			<div class="grid gap">
-				<div class="col-xs-12 col-md-4">
-				<figure class="figure product">
-					<img src="./img/madhubani_lady.jpg">
+				<div class="grid gap">
+					<div class="col-xs-12 col-md-4">
+						<figure class="figure product-overlay">
+							<img src="./img/madhubani_lady.jpg">
+								<figcaption>
+							<div class="caption-body">
+						<div>Madhubani Lady</div>
+					<div>$99.00</div>
+				</div>
+			</figcaption>
+		</figure>
+	</div>
+
+			<div class="col-xs-12 col-md-4">
+				<figure class="figure product-overlay">
+					<img src="./img/colorful_spring.jpg">
 					<figcaption>
-						<div>Product Name</div>
-							<div>$99.00</div>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col-xs-12 col-md-4">
-					<figure class="figure product">
-						<img src="./img/colorful_spring.jpg">
-						<figcaption>
-							<div>Product Name</div>
+						<div class="caption-body">
+							<div>Colorful Spring</div>
 							<div>$45.00</div>
-						</figcaption>
-					</figure>
-				</div>
-				
+						</div>
+					</figcaption>
+				</figure>
+			</div>
+
+
 				<div class="col-xs-12 col-md-4">
-				<figure class="figure product">
-						<img src="./img/madhubani_fish.jpg">
-						<figcaption>
-					<div>Product Name</div>
-					<div>$25.00</div>
+				<figure class="figure product-overlay">
+					<img src="./img/madhubani_fish.jpg">
+					<figcaption>
+						<div class="caption-body">
+							<div>Madhubani Fish</div>
+							<div>$45.00</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
+	
+			<div class="col-xs-12 col-md-4">
+				<figure class="figure product-overlay">
+					<img src="./img/dot_painting1.jpg">
+					<figcaption>
+						<div class="caption-body">
+							<div>Dot Painting 1</div>
+							<div>$60.00</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
+
+				<div class="col-xs-12 col-md-4">
+				<figure class="figure product-overlay">
+					<img src="./img/dot_painting2.jpg">
+					<figcaption>
+						<div class="caption-body">
+							<div>Dot painting 2</div>
+							<div>60.00</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
+
+
+				<div class="col-xs-12 col-md-4">
+				<figure class="figure product-overlay">
+					<img src="./img/dot_painting3.jpg">
+					<figcaption>
+						<div class="caption-body">
+							<div>Dot painting 3</div>
+							<div>70.00</div>
+						</div>
 					</figcaption>
 				</figure>
 			</div>
 		</div>
 	</div>
 </div>
-			<div class="card soft">
-			<div class="grid gap">
-				<div class="col-xs-12 col-md-4">
-				<figure class="figure product">
-					<img src="./img/dot_painting1.jpg">
-					<figcaption>
-						<div>Product Name</div>
-							<div>$60.00</div>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col-xs-12 col-md-4">
-					<figure class="figure product">
-						<img src="./img/dot_painting2.jpg">
-						<figcaption>
-							<div>Product Name</div>
-							<div>$60.00</div>
-						</figcaption>
-					</figure>
-				</div>
-				
-				<div class="col-xs-12 col-md-4">
-				<figure class="figure product">
-						<img src="./img/dot_painting3.jpg">
-						<figcaption>
-					<div>Product Name</div>
-					<div>$70.00</div>
-					</figcaption>
-						</figure>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+
 
 	<div class="container">
 		<div class="card soft">

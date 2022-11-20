@@ -3,9 +3,9 @@
 include_once "lib/php/functions.php";
 include_once "parts/templates.php";
 
-$cart = makeQuery(makeConn(),"SELECT * FROM `products` WHERE `id` IN (1,4,8)");
+// $cart = makeQuery(makeConn(),"SELECT * FROM `products` WHERE `id` IN (1,4,8)");
 
-
+$cart_items = getCartItems();
 
 ?><!DOCTYPE html>
 <html lang="en">
@@ -25,34 +25,17 @@ $cart = makeQuery(makeConn(),"SELECT * FROM `products` WHERE `id` IN (1,4,8)");
 			<div class="grid gap">
 				<div class="col-xs-12 col-md-7">
 					<div class="card soft">
-						<?= array_reduce($cart,'cartListTemplate') ?>
-
+						<?= array_reduce($cart_items,'cartListTemplate') ?>
 					</div>
 				</div>
-
-			<div class="col-xs-12 col-md-5">
-				<div class="card soft">
-					<div class="card-selection display-flex">
-					<div class="flex-stretch"><strong>Sub Total</strong></div>
-					<div class="flex-none">&dollar;60.00</div>
-				</div>
-			
-					<div class="card-selection display-flex">
-					<div class="flex-stretch"><strong>Taxes</strong></div>
-					<div class="flex-none">&dollar;50.00</div>
-				</div>
-				
-					<div class="card-selection display-flex">
-					<div class="flex-stretch"><strong>Total</strong></div>
-					<div class="flex-none">&dollar;110</div>
-				</div>
-				<div class="card-selection">
-					<a href="product_checkout.php" class="form-button">Checkout</a>
-				</div>
+				<div class="col-xs-12 col-md-5">
+					<div class="card soft flat">
+						<?= cartTotals() ?>
 			</div>
 		</div>
 	</div>
 </div>
+
 
 </body>
 </html>
