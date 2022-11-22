@@ -4,17 +4,15 @@
 function productListTemplate($r,$o) {
 return $r.<<<HTML
 <a class="col-xs-12 col-md-4" href="product_item.php?id=$o->id">
-    <div class="col-xs-12 col-md-4">
-        <figure class="figure product-overlay">
+    <figure class="figure product display-flex flex-column">
+        <div class="flex-stretch">
             <img src="./img/$o->thumbnail"; alt="">
-            <figcaption>
-                <div class="caption-body">
-                    <div>&dollar;$o->price</div>
-                    <div>$o->name</div>
                 </div>
-            </figcaption>
-        </figure>
-    </div>
+                    <figcaption class="flex-none">
+                <div>$o->name</div>
+            <div>&dollar;$o->price</div>
+        </figcaption>
+    </figure>
 </a>
 HTML;
 }
