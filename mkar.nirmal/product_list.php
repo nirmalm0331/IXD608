@@ -15,6 +15,12 @@ include_once "parts/templates.php";
 	<script src="lib/js/functions.js"></script>
 	<script src="js/templates.js"></script>
 	<script src="js/product_list.js"></script>
+
+	<script>
+		query({type:'products_all'}).then(d=>{
+			$(".productlist").html(listItemTemplate(d.result))
+		});
+	</script>
 </head>
 <body>
 

@@ -3,9 +3,8 @@
 include_once "lib/php/functions.php";
 include_once "parts/templates.php";
 
-// $cart = makeQuery(makeConn(),"SELECT * FROM `products` WHERE `id` IN (1,4,8)");
 
-$cart_items = getCartItems();
+// $cart_items = getCartItems();
 
 ?><!DOCTYPE html>
 <html lang="en">
@@ -24,8 +23,8 @@ $cart_items = getCartItems();
 			<h2>In Your Cart</h2>
 			<div class="grid gap">
 				<div class="col-xs-12 col-md-7">
-					<div class="card soft">
-						<?= array_reduce($cart_items,'cartListTemplate') ?>
+					<div class="card soft flat">
+						<?= array_reduce(getCartItems(),'cartListTemplate') ?>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-5">
