@@ -70,6 +70,7 @@ $images_elements = array_reduce($images,function($r,$o){
 							</div>
 						</div>
 
+							
 							<div class="form-control">
 							<label for="product-color" class="form-label">Customize with other Background Colors</label>
 							<div class="form-select">
@@ -79,6 +80,7 @@ $images_elements = array_reduce($images,function($r,$o){
 								</select>
 							</div>
 						</div>
+					</div>
 		    	   
 					<div class="card-section">
 						<input type="submit" class="form-button" value="Add to cart">
@@ -86,7 +88,6 @@ $images_elements = array_reduce($images,function($r,$o){
 					</form>
 					</div>
 				</div>
-			</div>
 
 			<div class="container">
 			<div class="card soft">

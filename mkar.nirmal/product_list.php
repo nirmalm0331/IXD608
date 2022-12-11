@@ -37,39 +37,39 @@ include_once "parts/templates.php";
 
 	<div class="form-control">
 		<div class="card soft">
-			<div class="display-flex">
-				<div class="flex-stretch display-flex">
-			<div class="flex-none">
-				<button data-filter="category" data-value="" type="button" class="form-button">All</button>
-			</div>
-		
-			<div class="flex-none">
-				<button data-filter="category" data-value="dot_painting" type="button" class="form-button">Dot Painting</button>
-			</div>
-		
-			<div class="flex-none">
-				<button data-filter="category" data-value="oil_painting" type="button" class="form-button">Oil Painting</button>
-			</div>
-		
-			<div class="flex-none">
-				<button data-filter="category" data-value="acrylic_painting" type="button" class="form-button">Acrylic Painting</button>
-			</div>
-		</div>
-	
-
-	<div class="flex-none">
-		<div class="form-select">
-				<select class="js-sort">
-					<option value="1">Newest</option>
-					<option value="2">Oldest</option>
-					<option value="3">Least Expensive</option>
-					<option value="4">Most Expensive</option>
-					</select>
+			<div class="display-flex flex-wrap">
+				<div class="flex-stretch display-flex flex-wrap">
+					<div class="flex-none">
+						<button data-filter="category" data-value="" type="button" class="form-button">All</button>
+					</div>
+				
+					<div class="flex-none">
+						<button data-filter="category" data-value="dot_painting" type="button" class="form-button">Dot Painting</button>
+					</div>
+				
+					<div class="flex-none">
+						<button data-filter="category" data-value="oil_painting" type="button" class="form-button">Oil Painting</button>
+					</div>
+				
+					<div class="flex-none">
+						<button data-filter="category" data-value="acrylic_painting" type="button" class="form-button">Acrylic Painting</button>
+					</div>
 				</div>
+
+				<div class="flex-none">
+					<div class="form-select">
+						<select class="js-sort">
+							<option value="1">Newest</option>
+							<option value="2">Oldest</option>
+							<option value="3">Least Expensive</option>
+							<option value="4">Most Expensive</option>
+						</select>
+					</div>
+				</div>
+
 			</div>
 		</div>
-	</div>
-</div>			
+	</div>			
 
 	<div class='productlist grid gap'> </div>
 
