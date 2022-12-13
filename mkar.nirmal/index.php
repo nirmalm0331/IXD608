@@ -6,9 +6,8 @@ include_once "parts/templates.php";
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	
 	<title>Handmade by Nirmal</title>
+	<meta charset="UTF-8">
 
 	<?php include "parts/meta.php"; ?>
 </head>
@@ -27,6 +26,7 @@ include_once "parts/templates.php";
 			<p>Welcome all to the creative world of Nirmal's Art!</p>
 
 			</div>
+		</div>
 
 
 			<div class="container">
